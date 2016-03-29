@@ -3,9 +3,15 @@
 #   read the documentation on https://atom.io/packages/flex-tool-bar
 
 [
+    {
+      type: "button"
+      icon: "gear"
+      callback: "settings-view:open"
+      tooltip: "Open preferences"
+    }
   {
     type: "button"
-    icon: "gear"
+    icon: "pin"
     callback: "flex-tool-bar:edit-config-file"
     tooltip: "Edit Tool Bar"
   }
