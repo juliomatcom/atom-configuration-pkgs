@@ -36,8 +36,24 @@
   }
   {
     type: "button"
+    icon: "diff-removed"
+    callback: "editor:fold-current-row"
+    tooltip: "Fold current row"
+  }
+    {
+      type: "button"
+      icon: "diff-added"
+      callback: "editor:unfold-current-row"
+      tooltip: "Unfold current row"
+    }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
     icon: "git-merge"
     callback: "merge-conflicts:detect"
     tooltip: "Git merge detect"
   }
+
 ]
