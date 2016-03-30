@@ -24,4 +24,20 @@
     callback: "linter:toggle"
     tooltip: "Enable/Disable linter"
   }
+  {
+    type: "button"
+    icon: "ios-arrow-thin-down"
+    callback: "linter:next-error"
+    tooltip: "Linter next error"
+    iconset: "ion"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "git-merge"
+    callback: "merge-conflicts:detect"
+    tooltip: "Git merge detect"
+  }
 ]
