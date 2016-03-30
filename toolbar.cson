@@ -20,19 +20,19 @@
   }
   {
     type: "button"
-    icon: "diff-removed"
+    icon: "dash"
     callback: "editor:fold-current-row"
     tooltip: "Fold current row"
   }
-    {
-      type: "button"
-      icon: "diff-added"
-      callback: "editor:unfold-current-row"
-      tooltip: "Unfold current row"
-    }
+  {
+    type: "button"
+    icon: "plus"
+    callback: "editor:unfold-current-row"
+    tooltip: "Unfold current row"
+  }
   {
     type: "spacer"
-  }  
+  }
   {
     type: "button"
     icon: "telescope"
