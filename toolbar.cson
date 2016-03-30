@@ -20,6 +20,21 @@
   }
   {
     type: "button"
+    icon: "diff-removed"
+    callback: "editor:fold-current-row"
+    tooltip: "Fold current row"
+  }
+    {
+      type: "button"
+      icon: "diff-added"
+      callback: "editor:unfold-current-row"
+      tooltip: "Unfold current row"
+    }
+  {
+    type: "spacer"
+  }  
+  {
+    type: "button"
     icon: "telescope"
     callback: "linter:toggle"
     tooltip: "Enable/Disable linter"
@@ -31,21 +46,6 @@
     tooltip: "Linter next error"
     iconset: "ion"
   }
-  {
-    type: "spacer"
-  }
-  {
-    type: "button"
-    icon: "diff-removed"
-    callback: "editor:fold-current-row"
-    tooltip: "Fold current row"
-  }
-    {
-      type: "button"
-      icon: "diff-added"
-      callback: "editor:unfold-current-row"
-      tooltip: "Unfold current row"
-    }
   {
     type: "spacer"
   }
