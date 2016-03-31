@@ -41,10 +41,9 @@
   }
   {
     type: "button"
-    icon: "ios-arrow-thin-down"
+    icon: "chevron-down"
     callback: "linter:next-error"
     tooltip: "Linter next error"
-    iconset: "ion"
   }
   {
     type: "spacer"
