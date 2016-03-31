@@ -31,6 +31,12 @@
     tooltip: "Unfold current row"
   }
   {
+    type: "button"
+    icon: "file-text"
+    callback: "markdown-preview:toggle"
+    tooltip: "Preview markdown"
+  }
+  {
     type: "spacer"
   }
   {
