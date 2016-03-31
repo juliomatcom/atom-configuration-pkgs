@@ -20,13 +20,13 @@
   }
   {
     type: "button"
-    icon: "dash"
+    icon: "fold"
     callback: "editor:fold-current-row"
     tooltip: "Fold current row"
   }
   {
     type: "button"
-    icon: "plus"
+    icon: "unfold"
     callback: "editor:unfold-current-row"
     tooltip: "Unfold current row"
   }
