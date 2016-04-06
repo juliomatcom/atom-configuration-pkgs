@@ -39,6 +39,12 @@
   {
     type: "spacer"
   }
+    {
+      type: "button"
+      icon: "eye"
+      callback: "settings:toggle-show-invisibles"
+      tooltip: "Enable/Disable invisibles"
+    }
   {
     type: "button"
     icon: "telescope"
