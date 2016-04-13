@@ -62,6 +62,12 @@
   }
   {
     type: "button"
+    icon: "history"
+    callback: "local-history:current-file"
+    tooltip: "Show local history"
+  }
+  {
+    type: "button"
     icon: "git-merge"
     callback: "merge-conflicts:detect"
     tooltip: "Git merge detect"
