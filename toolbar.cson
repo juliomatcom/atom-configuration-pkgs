@@ -9,68 +9,91 @@
       callback: "settings-view:open"
       tooltip: "Open preferences"
     }
-  {
-    type: "button"
-    icon: "pin"
-    callback: "flex-tool-bar:edit-config-file"
-    tooltip: "Edit Tool Bar"
-  }
-  {
-    type: "spacer"
-  }
-  {
-    type: "button"
-    icon: "fold"
-    callback: "editor:fold-current-row"
-    tooltip: "Fold current row"
-  }
-  {
-    type: "button"
-    icon: "unfold"
-    callback: "editor:unfold-current-row"
-    tooltip: "Unfold current row"
-  }
-  {
-    type: "button"
-    icon: "file-text"
-    callback: "markdown-preview:toggle"
-    tooltip: "Preview markdown"
-  }
-  {
-    type: "spacer"
-  }
+    {
+      type: "button"
+      icon: "pin"
+      callback: "flex-tool-bar:edit-config-file"
+      tooltip: "Edit Tool Bar"
+    }
+    {
+      type: "spacer"
+    }
+    {
+      type: "button"
+      icon: "fold"
+      callback: "editor:fold-current-row"
+      tooltip: "Fold current row"
+    }
+    {
+      type: "button"
+      icon: "unfold"
+      callback: "editor:unfold-current-row"
+      tooltip: "Unfold current row"
+    }
+    {
+      type: "button"
+      icon: "file-text"
+      callback: "markdown-preview:toggle"
+      tooltip: "Preview markdown"
+    }
+    {
+      type: "spacer"
+    }
     {
       type: "button"
       icon: "eye"
       callback: "settings:toggle-show-invisibles"
       tooltip: "Enable/Disable invisibles"
     }
-  {
-    type: "button"
-    icon: "telescope"
-    callback: "linter:toggle"
-    tooltip: "Enable/Disable linter"
-  }
-  {
-    type: "button"
-    icon: "chevron-down"
-    callback: "linter:next-error"
-    tooltip: "Linter next error"
-  }
-  {
-    type: "spacer"
-  }
-  {
-    type: "button"
-    icon: "history"
-    callback: "local-history:current-file"
-    tooltip: "Show local history"
-  }
-  {
-    type: "button"
-    icon: "git-merge"
-    callback: "merge-conflicts:detect"
-    tooltip: "Git merge detect"
-  }
-
+    {
+      type: "button"
+      icon: "telescope"
+      callback: "linter:toggle"
+      tooltip: "Enable/Disable linter"
+    }
+    {
+      type: "button"
+      icon: "chevron-down"
+      callback: "linter:next-error"
+      tooltip: "Linter next error"
+    }
+    {
+      type: "spacer"
+    }
+    {
+      type: "button"
+      icon: "history"
+      callback: "local-history:current-file"
+      tooltip: "Show local history"
+    }
+    {
+      type: "button"
+      icon: "git-merge"
+      callback: "merge-conflicts:detect"
+      tooltip: "Git merge detect"
+    }
+    {
+      type: "spacer"
+    }
+    {
+      type: "button"
+      icon: "bug"
+      callback: "node-debugger:start-resume"
+      tooltip: "Start | Resume debug"
+    }
+    {
+      type: "button"
+      icon: "primitive-dot"
+      callback: "node-debugger:toggle-breakpoint"
+      tooltip: "Toggle breakpoint"
+    }
+    {
+      type: "button"
+      icon: "stop"
+      callback: "node-debugger:stop"
+      tooltip: "Stop debug"
+    }
+    {
+      type: "spacer"
+    }
 ]
