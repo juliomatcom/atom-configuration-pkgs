@@ -77,19 +77,19 @@
     }
     {
       type: "button"
-      icon: "bug"
-      callback: "node-debugger:start-resume"
-      tooltip: "Start | Resume debug"
-    }
-    {
-      type: "button"
       icon: "primitive-dot"
       callback: "node-debugger:toggle-breakpoint"
       tooltip: "Toggle breakpoint"
     }
     {
       type: "button"
-      icon: "stop"
+      icon: "bug"
+      callback: "node-debugger:start-active-file"
+      tooltip: "Start debug"
+    }    
+    {
+      type: "button"
+      icon: "primitive-square"
       callback: "node-debugger:stop"
       tooltip: "Stop debug"
     }
