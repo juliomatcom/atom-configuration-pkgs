@@ -1,6 +1,8 @@
 #  atom-configuration-pkgs
 ##### My Atom's packages configuration files :flashlight:
-[[https://github.com/juliomatcom/atom-configuration-pkgs/blob/master/rsz_atom-toolbar.jpg|alt=toolbar picture]] 
+
+![Toolbar](https://github.com/juliomatcom/atom-configuration-pkgs/blob/master/rsz_atom-toolbar.jpg)
+Format: ![Toolbar](url)
 
 Note: Normally in Ubuntu, confs files will be in */home/user/.atom*
 
