@@ -2,11 +2,10 @@
 ##### My Atom's packages configuration files :flashlight:
 
 ![Toolbar](https://github.com/juliomatcom/atom-configuration-pkgs/blob/master/rsz_atom-toolbar.jpg)
-Format: ![Toolbar](url)
 
 Note: Normally in Ubuntu, confs files will be in */home/user/.atom*
 
-###### Packages
+###### Packages i'm using
 - https://atom.io/packages/linter-eslint
 - https://atom.io/packages/flex-tool-bar
 - https://atom.io/packages/merge-conflicts
