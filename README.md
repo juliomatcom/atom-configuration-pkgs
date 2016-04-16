@@ -9,6 +9,7 @@ Note: Normally in Ubuntu, confs files will be in */home/user/.atom*
 - https://atom.io/packages/merge-conflicts
 - https://atom.io/packages/seti-icons
 - https://atom.io/packages/local-history
-
+- https://atom.io/packages/node-debugger
+- 
 ###### Themes
 - https://atom.io/themes/seti-syntax
