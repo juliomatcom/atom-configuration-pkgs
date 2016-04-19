@@ -63,8 +63,8 @@
     {
       type: "button"
       icon: "triangle-right"
-      callback: "atom-live-server:start-3000"
-      tooltip: "Run on local server 3000"
+      callback: "atom-live-server:start-8000"
+      tooltip: "Run on local server"
     }
     {
       type: "spacer"
