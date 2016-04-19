@@ -79,7 +79,7 @@
       type: "button"
       icon: "bug"
       callback: "node-debugger:start-active-file"
-      tooltip: "Start debug"
+      tooltip: "Start debug with node"
     }
     {
       type: "button"
