@@ -62,15 +62,9 @@
     }
     {
       type: "button"
-      icon: "history"
-      callback: "local-history:current-file"
-      tooltip: "Show local history"
-    }
-    {
-      type: "button"
-      icon: "git-merge"
-      callback: "merge-conflicts:detect"
-      tooltip: "Git merge detect"
+      icon: "triangle-right"
+      callback: "atom-live-server:start-3000"
+      tooltip: "Run on local server 3000"
     }
     {
       type: "spacer"
@@ -86,7 +80,7 @@
       icon: "bug"
       callback: "node-debugger:start-active-file"
       tooltip: "Start debug"
-    }    
+    }
     {
       type: "button"
       icon: "primitive-square"
@@ -95,5 +89,17 @@
     }
     {
       type: "spacer"
+    }
+    {
+      type: "button"
+      icon: "history"
+      callback: "local-history:current-file"
+      tooltip: "Show local history"
+    }
+    {
+      type: "button"
+      icon: "git-merge"
+      callback: "merge-conflicts:detect"
+      tooltip: "Git merge detect"
     }
 ]
