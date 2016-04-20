@@ -1,6 +1,6 @@
 linter-eslint
 flex-tool-bar
 merge-conflicts
-seti-icons
+file-icons
 local-history
 atom-live-server
