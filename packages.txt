@@ -1,0 +1,6 @@
+linter-eslint
+flex-tool-bar
+merge-conflicts
+seti-icons
+local-history
+atom-live-server
