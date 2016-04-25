@@ -5,3 +5,4 @@ merge-conflicts
 file-icons
 local-history
 atom-live-server
+node-debugger
