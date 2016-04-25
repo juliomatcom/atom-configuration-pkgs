@@ -1,3 +1,4 @@
+minimap
 linter-eslint
 flex-tool-bar
 merge-conflicts
