@@ -10,5 +10,7 @@ This script will install the atom's packages in [packages.txt](https://raw.githu
 - Download [install.sh](https://raw.githubusercontent.com/juliomatcom/atom-configuration-pkgs/master/install.sh)
 - Run `sh install.sh`
 
+**Update**  
+I'm not using tools (almost) anymore, i'm fighting my tooling alcoholic, [What editor do you use?](https://www.youtube.com/watch?v=dIjKJjzRX_E)
 
 MIT @juliomatcom
