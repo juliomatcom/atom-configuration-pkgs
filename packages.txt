@@ -8,3 +8,4 @@ atom-live-server
 node-debugger
 atom-beautify
 docblockr
+highlight-selected
