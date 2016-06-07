@@ -9,3 +9,4 @@ node-debugger
 atom-beautify
 docblockr
 highlight-selected
+language-patch
