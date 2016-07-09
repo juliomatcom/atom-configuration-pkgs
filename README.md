@@ -13,4 +13,5 @@ This script will install the atom's packages in [packages.txt](https://raw.githu
 **Update**  
 I'm not using tools (almost) anymore, i'm fighting my tooling alcoholic, [What editor do you use?](https://www.youtube.com/watch?v=dIjKJjzRX_E)
 
+### License
 [MIT @juliomatcom](http://licsource.com/mit?name=Julio Cesar Martin&year=2016&email=juliomatcom@gmail.com&url=http://julces.com/)
